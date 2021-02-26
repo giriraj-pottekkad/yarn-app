@@ -1,0 +1,21 @@
+{
+  "name": "yarn-app",
+  "version": "0.0.1",
+  "description": "To check yarn package manager",
+  "main": "index.js",
+  "repository": "https://github.com/giriraj-pottekkad/yarn-app.git",
+  "author": "Giriraj",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.3.0",
+    "request": "^2.88.2"
+  }
+}
